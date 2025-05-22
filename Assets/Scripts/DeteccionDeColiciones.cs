@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class DeteccionDeColiciones : MonoBehaviour
 {
-  void OnCollisionEnter()
+  void OnCollisionEnter(Collision col)
     {
-        Debug.Log("acto acto pide contacto quiere que lo hagamos cada rato, duro dos horas haciendolo bien rico o de las chicas soy su favorito o");
-        Destroy(gameObject);
+        Debug.Log("contacto");
+        if (col.gameObject.name == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
