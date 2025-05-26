@@ -42,6 +42,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947121e9955bdd14b8c3f8e4149c3d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreManager: {fileID: 0}
+  mercaderiaScript: {fileID: 0}
+--- !u!114 &7985905978109430302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807202877627941200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d3953b8b37a03448a788734eed7a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePoints: 10
 --- !u!1 &8236819365979792380
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,7 +80,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8236819365979792380}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.124465, y: 1, z: 1.2610128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
