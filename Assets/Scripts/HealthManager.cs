@@ -6,12 +6,12 @@ public class HealthManager : MonoBehaviour
 {
     public int healthPoints;
     public int maxHealthPoints;
-    public UIManager uiManager;
+    public UiManager uiManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        uiManager = FindObjectOfType<UIManager>();
+        uiManager = FindObjectOfType<UiManager>();
         healthPoints = maxHealthPoints;
     }
 
