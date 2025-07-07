@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DeteccionDeColiciones : MonoBehaviour
 {
-    public ScoreManager ScoreManager;
+    public ScoreManager scoreManager;
     public MercaderiaScript mercaderiaScript;
 
      void Start()
     {
-        ScoreManager = FindObjectOfType<ScoreManager>();
+        scoreManager = FindObjectOfType<ScoreManager>();
         mercaderiaScript = GetComponent<MercaderiaScript>();
     }
 
@@ -19,7 +19,7 @@ public class DeteccionDeColiciones : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             Destroy(gameObject);
-            ScoreManager.addScore(mercaderiaScript.scorePoints);
+            scoreManager.addScore(mercaderiaScript.scorePoints);
         }
     }
 }

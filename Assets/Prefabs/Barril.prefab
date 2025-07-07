@@ -30,6 +30,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 9008fdad23ea56b49b12a817218cf34c, type: 3}
+--- !u!114 &4554515338210568596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807202877627941200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dd8c77fc1131743a67cab5db7b30c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthManager: {fileID: 0}
+  damagePoints: 15
 --- !u!114 &5757972258930253039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,21 +56,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947121e9955bdd14b8c3f8e4149c3d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreManager: {fileID: 0}
+  scoreManager: {fileID: 0}
   mercaderiaScript: {fileID: 0}
---- !u!114 &7985905978109430302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4807202877627941200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d3953b8b37a03448a788734eed7a8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scorePoints: 10
 --- !u!1 &8236819365979792380
 GameObject:
   m_ObjectHideFlags: 0

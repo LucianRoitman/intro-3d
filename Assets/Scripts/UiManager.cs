@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class UiManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI txtScore;
-
-    // Start is called before the first frame update
+    public TextMeshProUGUI txtHealthPoints;
+    
     void Start()
     {
         txtScore.text = "0";
@@ -16,4 +16,11 @@ public class UiManager : MonoBehaviour
     {
         txtScore.text = score.ToString();
     }
+
+    public void UpdateHealth(int health)
+    {
+        txtHealthPoints.text = health.ToString();
+    }
+
+
 }

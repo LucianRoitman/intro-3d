@@ -6,12 +6,12 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public int score;
-    public UiManager uiManager;
+    public UIManager uiManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        uiManager = FindObjectOfType<UiManager>();
+        uiManager = FindObjectOfType<UIManager>();
         score = 0;
     }
 
